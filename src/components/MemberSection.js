@@ -27,19 +27,19 @@ const MembersSection = () => {
         <Grid container spacing={4} mt={4} justifyContent="center">
           {[
             {
-              name: "Aarav Mehta",
-              role: "Lead Cloud Architect",
-              img: "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=500&q=80",
+              name: "Vasanth loganathan",
+              role: "Cloud Architect",
+              img: "/vasi_.jpeg",
             },
             {
-              name: "Priya Nair",
+              name: "veesam chiranjeevi",
               role: "Senior Data Engineer",
-              img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=80",
+              img: "/veesam.jpeg",
             },
             {
-              name: "Rahul Sharma",
-              role: "AI & Analytics Specialist",
-              img: "https://images.unsplash.com/photo-1508387027930-c5c7e417ae7d?auto=format&fit=crop&w=500&q=80",
+              name: "ajay kumar",
+              role: "Marketing Lead",
+              img: "/ajay.jpeg",
             },
           ].map((member) => (
             <Grid item xs={12} sm={6} md={4} key={member.name}>

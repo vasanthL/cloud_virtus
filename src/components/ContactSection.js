@@ -32,7 +32,7 @@ function ContactSection() {
           >
             <EmailIcon sx={{ fontSize: 40, color: "#1976D2", mb: 1 }} />
             <Typography variant="h6">Email</Typography>
-            <Typography variant="body1">contact@cloudvirtus.com</Typography>
+            <Typography variant="body1">admin@cloudvirtus.com</Typography>
           </Paper>
         </Grid>
 
@@ -49,7 +49,7 @@ function ContactSection() {
           >
             <PhoneIcon sx={{ fontSize: 40, color: "#1976D2", mb: 1 }} />
             <Typography variant="h6">Phone</Typography>
-            <Typography variant="body1">+1 (555) 123-4567</Typography>
+            <Typography variant="body1">+421 911407852</Typography>
           </Paper>
         </Grid>
 
@@ -66,9 +66,7 @@ function ContactSection() {
           >
             <LocationOnIcon sx={{ fontSize: 40, color: "#1976D2", mb: 1 }} />
             <Typography variant="h6">Location</Typography>
-            <Typography variant="body1">
-              123 Tech Street, Silicon Valley, CA
-            </Typography>
+            <Typography variant="body1">Trieda SNP 57, kosice 04011</Typography>
           </Paper>
         </Grid>
       </Grid>
